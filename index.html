@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Invitation | Ong Sze Boon & Suyanti</title>
+    <meta name="description"
+        content="Undangan Pernikahan Ong Sze Boon & Suyanti - 28 Maret 2026, Grand Elite Hotel Pekanbaru" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Noto+Serif+SC:wght@400;600&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- ===== Cover ===== -->
+    <section class="cover" id="cover" role="dialog" aria-modal="true">
+        <div class="cover-card">
+            <div class="badge">囍</div>
+            <p class="cover-kicker">Wedding Invitation</p>
+
+            <h1 class="cover-title">
+                <span class="latin">Ong Sze Boon</span>
+
+                <span class="amp">&</span>
+
+                <span class="latin">Suyanti</span>
+            </h1>
+
+            <!-- penerima dari link -->
+            <p class="toLine" id="toLine">
+                Kepada Yth: <span class="toName" id="toName"></span>
+            </p>
+
+            <button class="btn btn-primary" id="openBtn">
+                Buka Undangan
+                <span class="btn-spark" aria-hidden="true"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ===== Main ===== -->
+    <main class="page">
+        <div class="container">
+
+            <header class="hero reveal">
+                <div class="hero-badge">囍</div>
+                <p class="hero-kicker">Dengan penuh syukur dan hormat</p>
+
+                <h2 class="hero-names">
+                    Ong Sze Boon
+                    <span class="sep">&</span>
+                    Suyanti
+                </h2>
+
+                <div class="divider">
+                    <span></span><i>囍</i><span></span>
+                </div>
+
+                <p class="quote">
+                    Namo Buddhaya, Tuhan membuat segala sesuatu indah pada waktunya,<br />
+                    indah saat Dia mempertemukan, indah saat Dia menumbuhkan kasih,<br />
+                    dan indah saat Dia mempersatukan putra putri kami dalam<br />
+                    suatu ikatan suci pernikahan.
+                </p>
+            </header>
+
+            <section class="grid">
+                <article class="card reveal">
+                    <h3 class="card-title">Mempelai</h3>
+
+                    <div class="pair">
+                        <div class="person person-center">
+                            <div class="p-name p-name-big">
+                                Ong Sze Boon <span class="cnInline">(王世文)</span>
+                            </div>
+                            <div class="p-sub p-sub-center">
+                                Putra ke-enam dari Ny. Tan Geok Eng <span class="cnInline">陈玉英</span>
+                            </div>
+                        </div>
+
+                        <div class="pair-sep pair-sep-center">&</div>
+
+                        <div class="person person-center">
+                            <div class="p-name p-name-big">
+                                Suyanti <span class="cnInline">(洪婷婷)</span>
+                            </div>
+                            <div class="p-sub p-sub-center">
+                                Putri ke-enam dari Tn. Ang Akau <span class="cnInline">洪阿九</span>
+                                dan Ny. Minah / Ng Bi Kee <span class="muted">(alm)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="invite-text">
+                        Dengan penuh rasa syukur dan hormat, kami mengundang
+                        Bapak/Ibu/Saudara/i untuk hadir pada acara pernikahan putra - putri kami.
+                    </p>
+                </article>
+
+                <article class="card reveal">
+                    <h3 class="card-title">Detail Acara</h3>
+
+                    <div class="info">
+                        <div class="row">
+                            <span class="label">Hari / Tanggal</span>
+                            <span class="value">Sabtu, 28 Maret 2026</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Waktu</span>
+                            <span class="value">18.30 WIB – Selesai</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Tempat</span>
+                            <span class="value">Grand Elite Hotel · Grand Sutan Ballroom</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Alamat</span>
+                            <span class="value">Jl. Riau No 21C, Komplek Riau Bisnis Center (RBC), Pekanbaru</span>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <a class="btn btn-primary" target="_blank" rel="noopener"
+                            href="https://www.google.com/maps/search/?api=1&query=Grand+Elite+Hotel+Grand+Sutan+Ballroom+Jl+Riau+No+21C+Pekanbaru">
+                            Buka Google Maps
+                        </a>
+
+                        <a class="btn btn-ghost" target="_blank" rel="noopener"
+                            href="https://www.google.com/maps/dir/?api=1&destination=Grand+Elite+Hotel+Pekanbaru">
+                            Petunjuk Arah
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+            <section class="card reveal countdown-card">
+                <h3 class="card-title center">Menuju Hari Bahagia</h3>
+                <div class="countdown">
+                    <div class="cd"><b id="d">00</b><span>Hari</span></div>
+                    <div class="cd"><b id="h">00</b><span>Jam</span></div>
+                    <div class="cd"><b id="m">00</b><span>Menit</span></div>
+                    <div class="cd"><b id="s">00</b><span>Detik</span></div>
+                </div>
+            </section>
+
+            <!-- ===== Ucapan ===== -->
+            <section class="card reveal">
+                <h3 class="card-title">Ucapan & Doa</h3>
+                <p class="muted small-note">
+                    Tulis ucapan untuk kedua mempelai.
+                </p>
+
+                <form class="guestbook" id="guestbookForm">
+                    <div class="gb-grid">
+                        <div class="gb-field">
+                            <label for="gbName">Nama</label>
+                            <input id="gbName" name="name" type="text" placeholder="Nama kamu" maxlength="60"
+                                required />
+                        </div>
+
+                        <div class="gb-field gb-wide">
+                            <label for="gbMsg">Ucapan</label>
+                            <textarea id="gbMsg" name="message" placeholder="Tulis ucapan & doa terbaik..."
+                                maxlength="300" required></textarea>
+                            <div class="gb-hint">
+                                <span id="gbCount">0</span>/300
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gb-actions">
+                        <button class="btn btn-primary" type="submit">Kirim Ucapan</button>
+                    </div>
+                </form>
+
+                <div class="gb-listWrap">
+                    <div class="gb-listHead">
+                        <div class="gb-listTitle">Ucapan yang Masuk</div>
+                        <div class="gb-listMeta" id="gbMeta">0 ucapan</div>
+                    </div>
+                    <div class="gb-list" id="gbList"></div>
+                </div>
+            </section>
+
+            <section class="card reveal closing">
+                <div class="closing-badge">囍</div>
+                <p class="closing-text">
+                    Kebahagiaan kami akan terasa lebih sempurna,
+                    apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu
+                    kepada kedua mempelai.
+                </p>
+
+                <div class="families">
+                    <div class="fam">
+                        <div class="fam-title">Pihak Laki - Laki</div>
+                        <div class="fam-name">Ny. Tan Geok Eng <span class="cnInline">陈玉英</span></div>
+                    </div>
+
+                    <div class="fam-mid">
+                        <div class="fam-mid-top">Kami yang berbahagia</div>
+                    </div>
+
+                    <div class="fam">
+                        <div class="fam-title">Pihak Perempuan</div>
+                        <div class="fam-name">Tn. Ang Akau <span class="cnInline">洪阿九</span></div>
+                        <div class="fam-name">Ny. Minah / Ng Bi Kee <span class="muted">(alm)</span></div>
+                    </div>
+                </div>
+
+                <p class="signature">
+                    Ong Sze Boon <span class="cnInline">(王世文)</span> &nbsp;•&nbsp;
+                    Suyanti <span class="cnInline">(洪婷婷)</span>
+                </p>
+            </section>
+
+            <!-- ===== Rekening (paling bawah) ===== -->
+            <section class="card reveal giftCard" id="gift">
+                <h3 class="card-title">Love Gift</h3>
+                <p class="gift-desc">
+                    Doa restu Anda merupakan karunia yang sangat berarti bagi kami.
+                    Namun jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
+                </p>
+
+                <div class="gift-box">
+                    <div class="gift-bank">
+                        <div class="gift-bankLeft">
+                            <div class="gift-bankNo">
+                                <span class="muted">No. Rekening</span>
+                                <b id="accNumber">1440417341</b>
+                            </div>
+
+                            <div class="gift-bankOwner">a.n <b>Suyanti</b></div>
+                        </div>
+
+                        <div class="gift-bankLogo" aria-hidden="true">BCA</div>
+                    </div>
+
+                    <button class="btn btn-primary gift-copy" type="button" id="copyAccBtn" data-copy="1440417341">
+                        Copy Nomor Rekening <span class="copy-ico" aria-hidden="true">⧉</span>
+                    </button>
+
+                    <div class="copy-toast" id="copyToast" role="status" aria-live="polite">
+                        Nomor rekening berhasil disalin ✅
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <span class="tiny muted">© 2026 Wedding Invitation</span>
+            </footer>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
